@@ -1,0 +1,445 @@
+/* ///// GENERAL SECTION ///// */
+html, 
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    position: relative;
+}
+
+
+/* ///// SECTIONS ///// */
+.section-header {
+    text-align: center;
+    margin: 0 0 50px;
+}
+
+.section-title {
+    font-weight: 800;
+    font-size: 55px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.section-subtitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+hr {
+    width: 25%;
+    margin: 15px auto 5px;
+}
+
+
+/* ///// 01 . HEADER SECTION ///// */
+#smp-navbar {
+    background-color: #3a3c4a;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    color: #fff;
+    background-color: #42dca3;
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #42dca3;
+}
+
+.navbar-default {
+    border-bottom: 1px solid #42dca3;
+}
+
+.navbar-default .navbar-brand {
+    font-size: 30px;
+    font-weight: 600;
+    color: #42dca3;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 13px;
+    font-weight: 300;
+    color: #42dca3;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: #42dca3;
+    color: #fff;
+}
+
+
+/* ///// 02 . VIDEO SECTION ///// */
+#home {
+    padding: 0px; 
+    margin-bottom: 0px; 
+    height: 720px;
+}
+
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.video-container-fluid .title-container {
+    z-index: 1000;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.subheading1-video {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+.subheading2-video {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.headline h1 {
+    text-transform: uppercase;
+    font-size: 75px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.sns-top li {
+    display: inline;
+    padding: 0 3px;
+    text-decoration: none;
+}
+
+.sns-top img {
+    width: 40px;
+    height: 40px;
+}
+
+.sns-top {
+    text-align: center;
+    padding: 0 19px;
+}
+
+.button {
+    background-color: transparent;
+	border: 1px solid #42dca3;
+	border-radius: 3px;
+	cursor: default;
+	margin: 30px 5px;
+	padding: 10px 15px;
+	text-align: center;
+}
+
+.button:hover {
+    background-color: #42dca3;  
+}
+
+.button a {
+    font-size: 15px;
+    font-weight: 300;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.button a:hover {
+    text-decoration: none;
+    color: #3a3c4a;
+    font-weight: 700;
+}
+
+.video-container-fluid {
+    position: relative;
+    bottom: 0%;
+    left: 0$;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+
+.video-container-fluid video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+
+
+/* ///// 03 . ABOUT SECTION ///// */
+#about {
+    padding: 50px 10px 50px;
+}
+
+
+/* ///// 04 . PARRALAX SECTION ///// */
+.module-parallax {
+    height: 475px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.module-parallax.parallax-1 {
+    background-image: url(../img/singapore.jpe);
+}
+
+.module-parallax p {
+    text-align: center;
+    color: #fff;
+    margin: 70px 0 50px 0;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.module-parallax .inw {
+    margin: 0 auto;
+}
+
+
+/* ///// 05 . SKILLS SECTION ///// */
+#skills {
+    padding: 70px 10px 90px;
+    background: #3a3c4a;
+    color: #42dca3;
+}
+
+.skill-box {
+    background: #fff;
+    padding: 20px;
+    height: 270px;
+    border: 1px solid #42dca3;
+}
+
+.skill-box i {
+    padding: 5px;
+    color: #3a3c4a;
+}
+
+.skill-title {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.skill-text .skill-description {
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/* ///// 06 . CURRICULUM SECTION ///// */
+#curriculum {
+    padding: 70px 10px 90px;
+}
+
+.curriculum-title {
+    color: #42dca3;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+.curriculum-img {
+    height: 55px;
+    padding: 0 5px;
+}
+
+
+/* ///// 07 . PROCESS SECTION ///// */
+#process {
+    padding: 50px 10px 50px;
+    background: #3a3c4a;
+    color: #42dca3;
+}
+
+.process-box {
+    text-align: center;
+}
+
+
+/* ///// 08 . PORTFOLIO SECTION ///// */
+#portfolio {
+    padding: 50px 0 50px;
+}
+
+#portfolio .portfolio-item {
+    margin: 0 0 15px;
+    right: 0;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    background: #42dca3;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+    opacity: 0.9;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    top: 50%;
+    margin-top: -12px;
+    color: #fff;
+}
+
+#iportfolio {
+    position: relative;
+    top: 45%;
+    left: 45%;
+    text-align: center;
+    color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #3a3c4a;
+    text-align: center;
+    padding: 25px;
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
+    text-transform: none;
+    margin: 0;
+    color: #42dca3;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 13px;
+    margin: 0;
+}
+
+.portfolio-modal .modal-content {
+    border-radius: 0;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    min-height: 100%;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.portfolio-modal .modal-content p.item-intro {
+    margin: 20px 0 30px;
+    font-size: 16px;
+}
+
+.modal-content img {
+    margin-bottom: 25px;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #42dca3;
+    border-color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #3a3c4a;
+    border-color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+/* ///// 09 . CONTACT SECTION ///// */
+#contact {
+    padding: 50px 10px 25px;
+    background: #3a3c4a;
+    color: #42dca3;
+}
+
+#contact h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 21px;
+    margin-top: 0;
+}
+
+#contact p {
+    color: #fff;
+    font-size: 15px;
+}
+
+.sns-bottom li {
+    display: inline;
+    text-decoration: none;
+}
+
+.sns-bottom img {
+    width: 45px;
+    height: 45px;
+}
+
+.sns-bottom {
+    text-align: center;
+    padding: 0 19px;
+}
+
+.email {
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+}
