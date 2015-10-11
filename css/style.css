@@ -185,6 +185,11 @@ hr {
     padding: 50px 10px 50px;
 }
 
+.me {
+    height: 490px;
+    padding-left: 70px;
+}
+
 
 /* ///// 04 . PARRALAX SECTION ///// */
 .module-parallax {
@@ -199,7 +204,7 @@ hr {
     background-image: url(../img/singapore.jpe);
 }
 
-.module-parallax p {
+.module-parallax h2 {
     text-align: center;
     color: #fff;
     margin: 70px 0 50px 0;
@@ -326,7 +331,7 @@ ul {
     color: #fff;
 }
 
-#iportfolio {
+.iportfolio {
     position: relative;
     top: 45%;
     left: 45%;
